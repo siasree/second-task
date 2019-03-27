@@ -1,0 +1,206 @@
+/* reset layout */
+html,body,.container
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+h1,h2,h3,h4,h5,h6,p,table{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+/* reset ends here */
+.parent
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/FB_IMG_1458641919526.jpg");
+    background-position: 2vw;
+}
+.header
+{
+    display: flex;
+    flex: 1 10%;
+    flex-direction: row;
+}
+.logo
+{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.navigation
+{
+    display: flex;
+    flex: 1;
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation ul li{
+    display: inline;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 1vw;
+}
+.navigation ul li a:hover{
+    color: gold;
+}
+.section
+{
+    display: flex;
+    flex: 1 60% ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: burlywood; */
+    
+}
+.body-head
+{
+    display: flex;
+    font-size: 16px;
+    text-transform: capitalize; 
+    font-style: italic;   
+    color: white;
+}
+.body-center
+{
+    text-transform: capitalize;
+    font-size: 32px; 
+    display: flex;
+    color: white;
+}
+.body-foot
+{
+    text-transform: capitalize;
+    display: flex;
+    border: 1px solid orangered;
+    background-color: orangered;
+    padding: 1vw;
+    color: white;
+}
+.body-foot a{
+    text-decoration: none;
+    color: white;
+}
+.footer
+{
+    display: flex;
+    flex: 1 30%;
+    /* background-color:green; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid red; */
+}
+.card-wrap
+{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vw;
+}
+.card1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: grey;
+}
+.image-secction
+{
+    flex: 1;
+    display: flex;
+}
+.title
+{
+    text-align: center;
+    text-transform:capitalize;
+    color: gold;
+}
+.para
+{
+    text-align: center;
+}
+.card2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color:rgb(15, 15, 15);
+}
+.image-secction
+{
+    flex: 1;
+    display: flex;
+}
+.title
+{
+    text-align: center;
+    text-transform:capitalize;
+    color: gold;
+}
+}
+.para
+{
+    text-align: center;
+}
+.card3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: grey;
+}
+.image-secction
+{
+    flex: 1;
+    display: flex;
+}
+.title
+{
+    text-align: center;
+    text-transform:capitalize;
+    color: gold;
+}
+.para
+{
+    text-align: center;
+}
+.card4{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color:rgb(15, 15, 15);
+}
+.image-secction
+{
+    flex: 1;
+    display: flex;
+}
+.title
+{
+    text-align: center;
+    text-transform:capitalize;
+    color: gold;
+}
+.para
+{
+    text-align: center;
+    color: white;
+}
